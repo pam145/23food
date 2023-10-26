@@ -1,0 +1,43 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin:50px;
+  background-color:#2d0851;
+  color:white;
+  border-radius: 35px;
+  padding: 20px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  transform: translate(50%,50%);
+  width: 450px;
+  border: size 20px;;
+}
+.Signup-box{
+  width: 450px;
+  height:820px;
+  margin: auto;
+  background-color: #2e0854;
+  border-radius: 5px;
+  
+}
+h1{
+  text-align: center;
+  padding-top: 15px;
+}
+h2{
+  text-align: center;
+}
+form{
+  width: 400px;
+}
+form label{
+  display: flex;
+}
+form input{
+  width: 100%;
+  padding: 7px;
+}
+input[type="button"]{
+  width: 200px;
+  height: 35px;
+}

@@ -1,0 +1,61 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+}
+:root{
+  --main: purple;
+  --primary:yellow;
+}
+
+/*styling header */
+#header{
+  display: flex;
+  font-size: 1.6rem;
+  justify-content: space-between;
+  padding:2% 5%;
+  background-color: var(--main);
+}
+.nav ul{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.nav a{
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+}
+.nav a:hover{
+  color: var(--primary);
+}
+.logo p{
+  color:var(--primary);
+  font-size: 2.5rem;
+}
+/*styling header done*/
+.banner{
+  background-image: url(14\ -\ suit-1.png);
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  padding: 12% 5%;
+}
+.banner p{
+  font-size: 2rem;
+  /*padding: 10% 5%; */
+}
+.banner button{
+  text-transform: capitalize;
+  font-size: 1.6rem;
+  margin-top: 3%;
+  padding: 10px;
+  background-color: var(--main);
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+}

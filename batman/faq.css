@@ -1,0 +1,77 @@
+/* Styling FAQ */
+.accordion{
+  font-size: 1.8rem;
+}
+.accordion-header .accordion-button{
+  font-size: 1.8rem;
+}
+
+.faq{
+  text-align: center;
+  margin-top: 120px;
+  
+}
+.faq h1{
+  font-size: 4rem;
+  font-weight: bolder;
+}
+.faq p{
+font-size: 2.6rem;
+color: grey;
+}
+.acc p{
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.question .quest{
+  background-color: whitesmoke;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 35px;
+}
+.quest li i{
+  color: black;
+  font-size: 14px;
+  background-color: whitesmoke;
+}
+.quest .support{
+  color: blue;
+  font-size: 1.4rem;
+}
+.quest .contact{
+  color: grey;
+  font-size: 1.4rem;
+}
+.quest .follow{
+  font-size: 1.4rem;
+  padding-top: 20px;
+}
+.quest .more{
+  font-size: 1.8rem;
+}
+.footers{
+  background-color: #373737;
+  margin-top: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.foot{
+  background-color: #373737;
+}
+.foot p{
+  color: white;
+  font-size: 1.6rem;
+}
+.foot ul{
+  color: white;
+  font-size: 1.6rem;
+}
+.foot li{
+  text-decoration: none;
+}
+.copied{
+  margin-top: 4px;
+}

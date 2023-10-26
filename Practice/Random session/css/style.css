@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-nav {
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+a {
+    font-size: 20px;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+
+/*--------------intro section--------------*/
+input {
+    margin: 0 0 10pxl p;
+}
+
+#intro {
+    display: flex;
+    width: 1100px;
+    margin: 50px auto;
+}
+
+#intro h1 {
+    font-size: 30px;
+}
+
+#intro a {
+    background-color: aqua;
+    color: white;
+    padding: 15px 25px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 15px;
+    transition-duration: 0.3;
+}
+
+video {
+    width: 40%;
+    border-radius: 20%;
+}
+
+.product-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin: 15px auto;
+}
+
+.product-nav h3 {
+     margin:0;
+    }
+
+.product-nav a {
+    color:blue;
+    text-decoration: none;
+}
+
+.product-nav h3 {
+    display:flex;
+    justify-content: space-between;
+    width:1100px;
+    margin: 30px auto;
+
+}
+.product-nav{ margin:0;}
+main {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1100px;
+    margin: auto;
+    gap: 20px 20px;
+}
+
+
+main {
+    display: flex;
+}
+
+.product-card {
+    background-color: white;
+    border-radius: 20px;
+    width: 250px;
+    margin:auto;
+}
+
+.product-img {
+    border-radius: 20px 20px 0 0;
+}
+
+footer {
+    background-color: black;
+    height: 300px;
+    width: 100px;
+    color: white;
+    text-align: center;
+}

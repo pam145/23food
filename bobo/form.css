@@ -1,0 +1,23 @@
+.h1{
+  text-align: center;
+  padding-top: 6%;
+}
+.h2{
+  text-align: center;
+  padding-top: 1%;
+  font-size: 1%;
+}
+.free{
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 30%;
+  width: 10%;
+  height: 10%;
+  border-radius: 100%;
+  margin-right: 20px
+}
+
+

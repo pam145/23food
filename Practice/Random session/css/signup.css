@@ -1,0 +1,68 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+}
+header{
+    display: flex;
+}
+.main-nav{
+    background-color: aliceblue; 
+    padding: 10px;
+}
+.main-nav a{
+    font-size: 20px;
+    color:black;
+    text-decoration: none;
+}
+.main-nav a:hover{
+    color:orangered;
+    transition-duration: 0.3s;
+}
+#selected{color:blue}
+
+
+form{
+    width: 400px;
+    background-color: white;
+    border: solid 1px grey;
+    border-radius: 15px;
+    color: blue;
+    padding: 25px;
+    margin: 50px auto;
+}
+.field{
+    width: 94%;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.field:focus{
+    border:solid 1px blue;
+}
+form a{ color:black; text-decoration:none; }
+button{ 
+     width: 100%;
+     background-color:blue;
+     border:none;
+     border-radius:10px;
+     color: aliceblue;
+     padding: 10px 0;
+     font-size: 22px;
+     font-weight: bold;
+     transition-duration: 0.3s;
+     -webkit-border-radius:10px;
+     -moz-border-radius:10px;
+     -ms-border-radius:10px;
+     -o-border-radius:10px;
+}
+    button:hover{
+        background-color:blue;
+        cursor: help;
+    }
+
+    

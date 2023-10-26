@@ -1,0 +1,19 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>contact </title>
+    <style>
+        h1{color: blue;}
+    </style>
+</head>
+<body>
+    <h1>this is katakata</h1>
+    <img src="image/14 - suit-1.png" width="100">
+    <nav>
+        <a href="https://google.com/">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="contact.html">Contact</a>
+        <a href="profile.html">Profile</a>
+        <a href="signup.html">Signup</a>
+    </nav>
+    <hi>contact</hi>
